@@ -30,6 +30,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-oauth2-authorization-server</artifactId>
             <version>3.3.1</version>
+            <!--Downgrading to 3.2.7 or 3.2.5 solve the issue and shows the list of endpoints-->
         </dependency>
 
         <dependency>
